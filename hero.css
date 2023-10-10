@@ -1,0 +1,83 @@
+.hero {
+  background-color: var(--hero);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.hero .hero-center {
+  display: flex;
+  align-items: center;
+}
+
+.hero .hero-left {
+  padding-left: 170px;
+}
+
+.hero .hero-left .hero-title {
+  font-family: "Seaweed Script";
+  font-size: 50px;
+  line-height: 50px;
+  color: var(--blue);
+}
+
+.hero .hero-left .hero-title2 {
+  font-size: 85px;
+  line-height: 90px;
+  font-weight: bold;
+  color: var(--dark-gray);
+  margin-bottom: 40px;
+}
+
+.hero .hero-left .hero-description {
+  color: var(--gray2);
+  line-height: 26px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.hero .hero-left .hero-btn {
+  display: flex;
+  align-items: center;
+}
+
+.hero .hero-left .hero-btn a {
+  background-image: linear-gradient(to right, #45bfff, #00a7ff);
+  color: white;
+  text-decoration: none;
+  padding: 24px 37px;
+  font-weight: 600;
+  line-height: 14px;
+  border-radius: 8px;
+  margin-right: 23px;
+}
+
+.hero .hero-left .hero-btn button {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  color: var(--blue);
+  column-gap: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hero .hero-left .hero-btn button div {
+  background-color: var(--light-blue);
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero .hero-left .hero-btn button:hover div {
+  background-color: var(--blue);
+  color: white;
+}
